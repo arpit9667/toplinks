@@ -5,9 +5,9 @@ const SESSION = require('express-session');
 const PASSPORT = require('passport');
 const Strategy = require('passport-twitter').Strategy;
 const dotenv = require('dotenv');
-dotenv.config({
-  path: `.env`
-})
+// dotenv.config({
+//   path: `.env`
+// })
 
 console.log(process.env.KEY);
 PASSPORT.use(new Strategy({

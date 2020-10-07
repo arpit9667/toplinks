@@ -4,6 +4,7 @@
   "description": "Twitter TopLinks App",
   "main": "index.js",
   "scripts": {
+    "npm start": "node index"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Arpit Agrawal",
