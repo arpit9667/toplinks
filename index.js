@@ -9,7 +9,6 @@ const dotenv = require('dotenv');
 //   path: `.env`
 // })
 
-console.log(process.env.KEY);
 PASSPORT.use(new Strategy({
   consumerKey: process.env.KEY,
   consumerSecret: process.env.SECRET,
