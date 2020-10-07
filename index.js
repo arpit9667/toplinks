@@ -12,7 +12,7 @@ const dotenv = require('dotenv');
 PASSPORT.use(new Strategy({
   consumerKey: process.env.KEY,
   consumerSecret: process.env.SECRET,
-  callbackURL: 'http://localhost:3000/auth/twitter/callback'
+  callbackURL: 'https://toplinks-035.herokuapp.com/auth/twitter/callback'
 }, function (token, tokenSecret, profile, callback) {
   console.log(token, tokenSecret);
   return callback(null, profile);
